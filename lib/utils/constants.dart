@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 
 class AppConstants {
   // API Configuration
-  // Your virtual host: camaligfitnessgym.local points to d:\Xampp\htdocs\camalig\web\
-  // So mobile folder is at: http://192.168.8.46/mobile/
-  static const String baseUrl = 'http://192.168.8.46/mobile/';
+  // PRODUCTION: Live server URL
+  static const String baseUrl = 'https://camaligfitnessgym.com/mobile/';
+
+  // DEVELOPMENT: Use this for local testing (uncomment when developing)
+  // static const String baseUrl = 'http://192.168.8.46/mobile/';
+
   static const String apiToken = '_jE@20RIC!25\$\$';
 
   // API Endpoints
