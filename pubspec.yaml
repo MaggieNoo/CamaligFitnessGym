@@ -1,0 +1,36 @@
+name: camalig_gym
+description: Camalig Fitness Gym Mobile Application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  image_picker: ^1.0.7
+  intl: ^0.19.0
+  flutter_svg: ^2.0.9
+  mobile_scanner: ^3.5.5
+  table_calendar: ^3.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/logo.png
+    - assets/images/login.jpg
+    - assets/images/forgot-password.jpg
+    - assets/images/signup-1.jpg
+    - assets/images/signup-2.jpg

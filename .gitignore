@@ -1,0 +1,48 @@
+.DS_Store
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+.gradle/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# iOS/macOS
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Android
+*.apk
+*.ap_
+*.aab
+local.properties
+key.properties
+*.jks
+
+# Test coverage
+coverage/
+
+# Miscellaneous
+*.log
+*.pyc
+*.swp
+.atom/
+.vscode/
+*.code-workspace
